@@ -21,7 +21,7 @@
                 </p>
 
                 <form>
-                    <fieldset>
+                    <fieldset class="child-info">
                         <legend>Informações da Criaça</legend>
                     
                         <div class="input-wrapper">
@@ -63,9 +63,9 @@
                             </div>
                         </div>
                     </fieldset>
-                </form>
+                
 
-                <form>
+                    
                     <fieldset class="address">
                         <legend>Endereço</legend>
 
@@ -97,7 +97,43 @@
                         </div>
 
                     </fieldset>
+                
+
+                
+                    <fieldset class="guardian">
+                        <legend>Informações do Responsável</legend>
+                            <div class="input-wrapper">
+                                <label for="guardian">Nome do responsável</label>
+                                <input id="guardian" name="guardian" type="text">
+                                <small>Princial responsável e contato de emergência</small>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="phone">Telefone</label>
+                                <input id="phone" name="phone" type=" tel" placeholder="(00) 00000-0000">
+                                                               
+                            </div>
+
+                             <div class="input-wrapper">
+                                <label for="email">email</label>
+                                <input id="email" name="email" type=" email" placeholder="Digite seu email" required>
+                                <div class="error">
+                                    <img src="assets/icons/alert-circle.svg" alt="">
+                                    <span>Insira um email valido</span>
+                                </div>
+                                                               
+                            </div>
+
+
+
+                     </fieldset>
+
+                    
+
                 </form>
+
+
+
             </div>
         </main>
     
