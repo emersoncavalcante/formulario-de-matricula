@@ -66,11 +66,34 @@
                 </form>
 
                 <form>
-                    <fieldset>
+                    <fieldset class="address">
                         <legend>Endereço</legend>
+
                         <div class="input-wrapper">
-                            <label for="CEP">CEP</label>
-                            <input id="CEP" name="CEP" type="text" placeholder="00000-000">
+                            <label for="cep">CEP</label>
+                            <input id="cep" name="cep" type="text" placeholder="00000-000">
+                        </div>
+
+                       <div class="flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="strert">Rua</label>
+                                <input id="street" name="street" type="text" placeholder="Nome da Rua" disabled>
+                                
+                                <label for="city">Cidade</label>
+                                <input id="city" name="city" type="text" placeholder="Nome da Cidade" disabled>
+                                
+                            </div>
+                            
+                            
+                            <div class="input-wrapper flex-2">
+                                <label for="number">Número</label>
+                                <input id="number" name="number" type="number" placeholder="Número da casa">
+                                    
+                                <label for="state">Estado</label>
+                                <input id="state" name="state" type="text" placeholder="Estado" disabled>
+                            </div>
+
+
                         </div>
 
                     </fieldset>

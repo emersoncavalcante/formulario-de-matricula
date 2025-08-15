@@ -4,7 +4,7 @@ input, textarea, select {
     appearance: none;
     width: 100%;
     border-radius: .5rem;
-    border: 1px solid var(--strooke-default);
+    border: 1px solid var(--stroke-default);
 
     padding: .75rem 1rem;
 }
@@ -46,4 +46,20 @@ input[type="date"] {
 
 select {
     background: url(../../assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
+}
+
+.address .flex {
+    gap: 1.25rem;
+}
+
+.imput-wrapper:has([disabled]) {
+    opacity: .5;
+}
+
+input {
+    & [disabled] {
+        background-color: var(--surface-disable);
+
+        border: 1px solid var(--stroke-default);
+    }
 }
