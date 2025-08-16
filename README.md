@@ -22,6 +22,12 @@ Não possui backend — todo o projeto é **front-end estático**.
 
 ---
 
+## 📷 Preview
+*(adicione aqui uma screenshot do seu projeto — exemplo:)*  
+![Preview do Formulário](./assets/screenshot.png)
+
+---
+
 ## 📂 Como visualizar
 1. Baixe os arquivos do repositório  
 2. Abra o `index.html` diretamente no navegador  
@@ -35,5 +41,6 @@ Não possui backend — todo o projeto é **front-end estático**.
 - Melhorias de acessibilidade (ex.: leitores de tela)  
 
 ---
+
 
 👨‍💻 **Projeto desenvolvido para estudos pessoais.**
